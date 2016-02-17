@@ -1,1 +1,1 @@
-$('#example').DataTable();
+$('#importFileTable').DataTable();

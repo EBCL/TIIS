@@ -1,28 +1,45 @@
-<button type="button" class="btn btn-primary">导入文件</button>
 
 
-<table id="example" class="table table-striped " cellspacing="0" width="100%">
+<div class="panel panel-default">
+  <div class="panel-body">
+   <label class="control-label">上传文件</label>
+<input id="input-1a" type="file" class="file" data-show-preview="false">
+  </div>
+</div>
+
+
+
+<div class="panel panel-default">
+  <div class="panel-body">
+  <table id="importFileTable" class="table table-striped " cellspacing="0" width="100%">
         <thead>
             <tr>
                 <th>文件名称</th>
                 <th>上传时间</th>
-                <th>操作</th>
+                <th style="width:150px;">操作</th>
               
             </tr>
         </thead>
        
         <tbody>
             <tr>
-                <td>eeee</td>
+                <td>2012.2.2.xlsx</td>
                 <td></td>
                 <td>
-					<button type="button" class="btn btn-success">分析</button>
-                	<button type="button" class="btn btn-danger">删除</button>
+					<button type="button" class="btn btn-sm  btn-success">分析</button>
+                	<button type="button" class="btn  btn-sm btn-danger">删除</button>
                 </td>
               
             </tr>
           
         </tbody>
     </table>
+  </div>
+</div>
+
+
+
+
+    <script type="text/javascript" src="js/fileinput.min.js"></script>
 
 <script type="text/javascript" src="js/importFile.js"></script>

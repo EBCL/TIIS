@@ -19,3 +19,4 @@ Traffic information inquiry system
 |bootstrap|||
 |jquery|||
 |routie.js||路由控制|
+|datatable.js||表格插件|
